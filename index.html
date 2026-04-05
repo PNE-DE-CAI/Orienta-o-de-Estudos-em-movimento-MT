@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Orientação de Estudos em Movimento ·MT· Formação 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: linear-gradient(145deg, #0a2f6c 0%, #041a3a 100%); min-height: 100vh; padding: 20px; color: #212121; }
+        :root { --azul-escuro: #0a2f6c; --azul-claro: #eef3fb; --vermelho: #d32f2f; --branco: #ffffff; --preto: #212121; --cinza-borda: #e0e4e9; }
+        .container { max-width: 1280px; margin: 0 auto; background: #0f1a24; border-radius: 48px; padding: 20px; box-shadow: 0 30px 35px rgba(0,0,0,0.5), inset 0 1px 4px rgba(255,255,200,0.1); border: 1px solid var(--vermelho); }
+        .header { display: flex; justify-content: space-between; align-items: center; background: #0a2f6ccc; backdrop-filter: blur(4px); padding: 12px 24px; border-radius: 60px; margin-bottom: 25px; flex-wrap: wrap; gap: 15px; }
+        .logo-area { display: flex; align-items: center; gap: 12px; }
+        .logo-area img { max-height: 50px; width: auto; background: white; border-radius: 12px; padding: 4px; }
+        .logo-area span { font-size: 1.2rem; font-weight: 600; color: #ffec9e; }
+        .title-badge { background: var(--vermelho); color: white; padding: 6px 18px; border-radius: 3rem; font-weight: bold; letter-spacing: 1px; font-size: 0.9rem; }
+        h2 { font-size: 1.8rem; font-weight: 600; color: var(--branco); border-left: 6px solid var(--vermelho); padding-left: 1rem; margin: 2rem 0 1.2rem 0; }
+        h3 { font-size: 1.3rem; font-weight: 600; margin: 1rem 0 0.8rem; color: var(--branco); }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+        .card { background: var(--branco); border-radius: 24px; padding: 1.2rem; box-shadow: 0 8px 20px rgba(0,0,0,0.2); border: 1px solid var(--cinza-borda); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-4px); border-color: var(--azul-escuro); }
+        .card h4 { color: var(--azul-escuro); font-size: 1.2rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px; }
+        .btn-link { background: linear-gradient(135deg, #0a2f6c, #052050); color: white; border: none; padding: 8px 16px; border-radius: 40px; font-weight: 600; cursor: pointer; transition: 0.1s linear; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; margin-top: 0.8rem; }
+        .btn-link:hover { background: var(--vermelho); transform: translateY(-2px); }
+        .agenda-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; background: #1a2a3a; border-radius: 32px; padding: 1rem; margin: 1rem 0; }
+        .agenda-col { background: #0f1a24; border-radius: 24px; padding: 1rem; }
+        .agenda-col h3 { color: #ffec9e; border-bottom: 2px solid var(--vermelho); display: inline-block; margin-bottom: 1rem; }
+        .agenda-item { display: flex; gap: 0.8rem; margin: 0.8rem 0; align-items: baseline; }
+        .time { font-weight: 700; color: var(--vermelho); min-width: 70px; }
+        .desc { color: #ddd; }
+        .explanation { background: #eef3fb; border-radius: 20px; padding: 1rem; margin-top: 1rem; }
+        .explanation p { color: #1e2a3e; font-size: 0.9rem; margin-bottom: 0.5rem; }
+        footer { text-align: center; margin-top: 2rem; padding: 1rem; color: #b4c8e0; font-size: 0.8rem; border-top: 1px solid #2c4c6e; }
+        @media (max-width: 700px) { .container { padding: 12px; } .agenda-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo-area">
+            <img src="https://i.ibb.co/0p01LzxB/logo3de.jpg" alt="Logo SEDUC">
+            <span>Orientação de Estudos · MT</span>
+        </div>
+        <div class="title-badge">📚 Formação · 06 a 10 de Abril</div>
+    </div>
+
+    <!-- Apresentação -->
+    <div class="card" style="background: #eef3fb; margin-bottom: 1.5rem;">
+        <h2 style="color: var(--azul-escuro); margin-top: 0;">🎯 Por que estamos aqui?</h2>
+        <p style="color: var(--preto); font-size: 1.1rem;">A jornada <strong>“Por dentro do Currículo em Movimento”</strong> é um espaço de reflexão e corresponsabilidade, fortalecendo o compromisso de transformar o conhecimento em ações que cheguem à sala de aula e impactem a aprendizagem em Matemática. Que este encontro nos ajude a estar, de fato, por dentro do Currículo, fazendo-o acontecer no cotidiano pedagógico.</p>
+        <div style="margin-top: 1rem;"><a href="https://app.sli.do/event/n417hVoCLnTTS5VuxP6ffy" target="_blank" class="btn-link"><i class="fas fa-comment"></i> Interação · Alinhamento de expectativas</a></div>
+        <div class="explanation" style="margin-top: 1rem;">
+            <p><strong>📌 O que é esta formação?</strong> Um encontro presencial voltado para professores de Orientação de Estudos em Matemática, com foco em estratégias de ensino para turmas heterogêneas, gamificação, uso de dados de diagnóstico e organização de agrupamentos produtivos.</p>
+            <p><strong>🎯 Objetivo principal:</strong> Planejar aulas de OE considerando avaliação diagnóstica, formativa e evidências coletadas, para atender estudantes de todos os níveis de aprendizagem (abaixo do básico, básico e proficiente).</p>
+        </div>
+    </div>
+
+    <!-- Agenda detalhada -->
+    <h2>📅 Agenda do Dia</h2>
+    <div class="agenda-grid">
+        <div class="agenda-col">
+            <h3>🌅 MANHÃ</h3>
+            <div class="agenda-item"><span class="time">9h00</span><span class="desc">Acolhimento p1 · INTERAÇÃO 01</span></div>
+            <div class="agenda-item"><span class="time">9h10</span><span class="desc">Acolhimento p2 · INTERAÇÃO 02</span></div>
+            <div class="agenda-item"><span class="time">9h20</span><span class="desc">Por que estamos aqui · INTERAÇÃO 03 (WCloud)</span></div>
+            <div class="agenda-item"><span class="time">9h30</span><span class="desc">A Jornada do Professor · Retomando · INTERAÇÃO 04 (Livro-Jogo)</span></div>
+            <div class="agenda-item"><span class="time">9h45</span><span class="desc">Quiz · INTERAÇÃO 05</span></div>
+            <div class="agenda-item"><span class="time">10h15</span><span class="desc">Mão na massa 01: Enturmação · INTERAÇÃO 06</span></div>
+            <div class="agenda-item"><span class="time">10h45</span><span class="desc">Mão na massa 02: Gamificação digital · INTERAÇÃO 07</span></div>
+            <div class="agenda-item"><span class="time">11h10</span><span class="desc">Mão na massa 03: Gamificação física · INTERAÇÃO 08</span></div>
+            <div class="agenda-item"><span class="time">11h30</span><span class="desc">Mão na massa 04: Gamificação plataforma · INTERAÇÃO 09</span></div>
+            <div class="agenda-item"><span class="time">11h45</span><span class="desc">Bora compartilhar? (Aberto)</span></div>
+            <div class="agenda-item"><span class="time">11h55</span><span class="desc">Cascateamento &amp; Avaliação</span></div>
+            <div class="agenda-item"><span class="time">12h00</span><span class="desc">Intervalo... 10 minutos </span></div>
+        </div>
+        <div class="agenda-col">
+            <h3>🌙 TARDE</h3>
+            <div class="agenda-item"><span class="time">13h00</span><span class="desc">Acolhimento p1 · INTERAÇÃO 01</span></div>
+            <div class="agenda-item"><span class="time">13h10</span><span class="desc">Acolhimento p2 · INTERAÇÃO 02</span></div>
+            <div class="agenda-item"><span class="time">13h20</span><span class="desc">Por que estamos aqui · INTERAÇÃO 03 (WCloud)</span></div>
+            <div class="agenda-item"><span class="time">13h30</span><span class="desc">A Jornada do Professor · Retomando · INTERAÇÃO 04 (Livro-Jogo)</span></div>
+            <div class="agenda-item"><span class="time">13h45</span><span class="desc">Quiz · INTERAÇÃO 05</span></div>
+            <div class="agenda-item"><span class="time">14h00</span><span class="desc">Mão na massa 01: Enturmação · INTERAÇÃO 06</span></div>
+            <div class="agenda-item"><span class="time">14h45</span><span class="desc">Mão na massa 02: Gamificação digital · INTERAÇÃO 07</span></div>
+            <div class="agenda-item"><span class="time">15h10</span><span class="desc">Mão na massa 03: Gamificação física · INTERAÇÃO 08</span></div>
+            <div class="agenda-item"><span class="time">15h30</span><span class="desc">Mão na massa 04: Gamificação plataforma · INTERAÇÃO 09</span></div>
+            <div class="agenda-item"><span class="time">15h45</span><span class="desc">Bora compartilhar? (Aberto)</span></div>
+            <div class="agenda-item"><span class="time">15h55</span><span class="desc">Cascateamento &amp; Avaliação</span></div>
+            <div class="agenda-item"><span class="time">16h00</span><span class="desc">Intervalo... 10 minutos </span></div>
+        </div>
+    </div>
+
+    <!-- Explicação das interações principais -->
+    <h2>📖 O que vamos fazer? (Explicação das atividades)</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h4><i class="fas fa-hand-peace"></i> Acolhimento (p1 e p2)</h4>
+            <p><strong>Objetivo:</strong> Sensibilizar os professores sobre a importância da matemática no cotidiano e a necessidade de estratégias criativas para engajar estudantes.</p>
+            <p><strong>Atividade p1 (digital):</strong> Reflexão sobre algoritmos em jogos de azar – como a matemática revela “verdades aparentes”.</p>
+            <p><strong>Atividade p2 (física):</strong> Jogo de dado e escrita – associar metas e índices à ideia de “pensar fora da caixa”.</p>
+            <a href="https://pne-de-cai.github.io/acolhimento2-oe2026-/" target="_blank" class="btn-link">Acessar Acolhimento 01</a>
+            <a href="https://pne-de-cai.github.io/dadourecaieirasmnm/" target="_blank" class="btn-link">Dados digitais</a>
+            <a href="https://drive.google.com/drive/folders/1tLQ5SteerMEkv69z9znHMMvO4c8Qs4x4?usp=drive_link" target="_blank" class="btn-link" style="margin-left: 0.5rem;">Acessar Acolhimento 02</a>
+        </div>
+        <div class="card">
+            <h4><i class="fas fa-book-open"></i> Retomando – Livro‑Jogo</h4>
+            <p>Revisão interativa dos conceitos da formação anterior: jornada do professor, heterogeneidade e estratégias de mediação.</p>
+            <a href="https://pne-de-cai.github.io/livro-jogo-da-recomposicao/" target="_blank" class="btn-link">Jogar agora</a>
+        </div>
+        <div class="card">
+            <h4><i class="fas fa-question-circle"></i> Quiz – Manuais de OE</h4>
+            <p>Verificação do conhecimento sobre os manuais de implementação da Orientação de Estudos em Matemática e a importância de conhecer os materiais a fundo.</p>
+            <a href="https://pne-de-cai.github.io/orientacao_estudos_MTeLP/" target="_blank" class="btn-link">Acessar Quiz</a>
+        </div>
+    </div>
+
+    <!-- Mão na massa – Enturmação e Gamificação -->
+    <h2>✋ Mão na massa – Práticas essenciais</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h4><i class="fas fa-users"></i> Enturmação (INTERAÇÃO 06)</h4>
+            <p><strong>Desafio:</strong> Como organizar uma turma heterogênea (abaixo do básico, básico, proficiente) usando dados reais de diagnóstico? A plataforma auxilia na criação de grupos produtivos e portfólios personalizados.</p>
+            <a href="https://pne-de-cai.github.io/-orientacao_estudos_2026MTLP/" target="_blank" class="btn-link">Acessar Enturmação</a>
+        </div>
+        <div class="card">
+            <h4><i class="fas fa-table"></i> Gamificação digital (INTERAÇÃO 07)</h4>
+            <p>Planilha de fácil gestão para o professor acompanhar conquistas, evolução e engajamento dos estudantes, respeitando os diferentes níveis de proficiência.</p>
+            <a href="https://docs.google.com/spreadsheets/d/1vL6u7TuaWV6kaY3-8iNXsC5-4XTP4_VnJ9QgXSYfUBU/edit?usp=sharing" target="_blank" class="btn-link">Acessar Planilha</a>
+        </div>
+        <div class="card">
+            <h4><i class="fas fa-file-pdf"></i> Gamificação física (INTERAÇÃO 08)</h4>
+            <p>Portfólio impresso como alternativa para escolas com pouco acesso digital – incentiva o engajamento por meio de selos, desafios e registros manuais.</p>
+            <a href="https://drive.google.com/drive/folders/1xUH7aISWYFAd91W2YvCMw7PFQ8qULLsj?usp=drive_link" target="_blank" class="btn-link">Baixar PDFs</a>
+        </div>
+        <div class="card">
+            <h4><i class="fas fa-globe"></i> Plataforma URE-Caieiras (INTERAÇÃO 09)</h4>
+            <p>Ferramenta central de gamificação com ranking, conquistas e monitoramento de todas as escolas da região – experiência compartilhada em nível de URE.</p>
+            <a href="https://pne-de-cai.github.io/gamificacaourecai2026/" target="_blank" class="btn-link">Acessar Plataforma</a>
+        </div>
+    </div>
+
+    <!-- Documento Orientador -->
+    <div class="card" style="background: #1a2a3a; text-align: center;">
+        <h3 style="color: #ffec9e;"><i class="fas fa-file-alt"></i> Documento base da formação</h3>
+        <p style="color: #ddd;">“Por dentro do Currículo” – Orientação de Estudos em Movimento (PDF oficial com todas as diretrizes e atividades).</p>
+        <a href="https://drive.google.com/file/d/1icibDb3na-RN_75lhPKqGLE5gnbhEiWm/view?usp=sharing" target="_blank" class="btn-link"><i class="fas fa-download"></i> Baixar PDF completo</a>
+        
+        <h3 style="color: #ffec9e;"><i class="fas fa-file-alt"></i> Vamos Replicar</h3>
+        <p style="color: #ddd;">“Por dentro do Currículo” – Orientação de Estudos em Movimento (PDF como replicar).</p>
+        <a href="https://drive.google.com/file/d/1jS9LmR8r3Bg-DaTwX24MoeUeADO-zxui/view?usp=drive_link" target="_blank" class="btn-link"><i class="fas fa-download"></i> Baixar PDF completo</a>
+    </div>
+
+    
+
+    <!-- Ampliando o olhar – Aluno Monitor -->
+    <h2>🧠 Ampliando o olhar – Aluno Monitor</h2>
+    <div class="card" style="background: #ffec9e; border-left: 5px solid var(--vermelho);">
+        <h4 style="color: var(--azul-escudo);"><i class="fas fa-handshake"></i> Por que o Aluno Monitor é fundamental?</h4>
+        <p>Todas as estratégias apresentadas (enturmação, gamificação, agrupamentos produtivos) se potencializam quando contam com a figura do <strong>Aluno Monitor</strong>. Ele atua como parceiro na Zona de Desenvolvimento Proximal (Vygotsky), usa linguagem entre pares (reduzindo o medo de errar) e é um agente ativo da recomposição das aprendizagens.</p>
+        <p>Nesta formação, discutimos como identificar monitores, organizar duplas produtivas e integrar essa estratégia às aulas de Orientação de Estudos.</p>
+        <div style="margin-top: 0.8rem;">
+            <a href="https://youtu.be/47djwKL0Jzc" class="btn-link" style="background: #0380ee;"><i class="fab fa-youtube"></i> Resumo YouTube</a>
+            <a href="https://drive.google.com/file/d/1laatqsrsA9bzEVJP4vuNw0MSw3KQ_FoN/view?usp=drive_link" class="btn-link" style="background: #0380ee; margin-left: 0.5rem;"><i class="fas fa-podcast"></i> Podcast</a>
+        </div>
+    </div>
+
+    <!-- Bora compartilhar? -->
+    <h2>🤝 Bora compartilhar?</h2>
+    <div class="card" style="text-align: center;">
+        <p>Momento aberto para troca de experiências, socialização de boas práticas e reflexão coletiva sobre os desafios da sala de aula heterogênea.</p>
+        <p><strong>Como participar:</strong> Durante o intervalo ou ao final das atividades, os grupos apresentam suas conclusões e estratégias adotadas nas simulações.</p>
+    </div>
+
+    <!-- Cascateamento e Avaliação -->
+    <h2>🔄 Cascateamento e Avaliação</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h4><i class="fas fa-share-alt"></i> Tutorial de Cascateamento</h4>
+            <p>Orientações para que os formadores repliquem esta formação nas Unidades Escolares, garantindo a circulação do conhecimento e o fortalecimento da rede.</p>
+            <a href="https://docs.google.com/presentation/d/1519XHXHbZUUV6-l2w1h70FQ9oRLaPK7G/edit?usp=sharing&ouid=101532812359216929017&rtpof=true&sd=true" target="_blank" class="btn-link">Acessar tutorial</a>
+        </div>
+        <div class="card">
+            <h4><i class="fas fa-edit"></i> Avaliação da Formação</h4>
+            <p>Sua opinião é fundamental! Responda ao formulário para que possamos melhorar os próximos encontros.</p>
+            <a href="https://forms.gle/3CT3Wc8YSyWQGxSM8" target="_blank" class="btn-link">Responder avaliação</a>
+        </div>
+    </div>
+
+    <!-- Regras de contabilização do cascateamento -->
+    <div class="card" style="background: #0f1a24; text-align: center;">
+        <p style="color: #b4c8e0;"><i class="fas fa-info-circle"></i> <strong>O que contabiliza no cascateamento:</strong> formados em ações criadas em N1 + ações criadas pela URE, formados em N2+N3, formações por componente. <strong>Não contabiliza:</strong> quantidade de formações, formações não curriculares ou que abrangem mais de uma área, avaliação de professores sem aula atribuída na área.</p>
+    </div>
+
+    <footer>
+        <p>Unidade Regional de Ensino Caieiras</p>
+        <p>Formação Presencial 2026 – Orientação de Estudos em Movimento · Matemática</p>
+        <p>Todos os recursos e links estão disponíveis para uso pedagógico.</p>
+    </footer>
+</div>
+</body>
+</html>
